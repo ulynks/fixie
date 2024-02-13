@@ -3,10 +3,12 @@
 {% block title %}Scopus Metrics - SDU Fixie Assistant Environment{% endblock %}
 
 {% block content %}
-<div class="iframe-container">
+<div class="full-width-container">
     <h2>Scopus Metrics Dashboard</h2>
-    <iframe src="https://embed.fixie.ai/agents/5a3113c2-a5f9-4150-8cfc-755e0029f519?debug=1" frameborder="0" style="height:250%; width:300%;">
-        Your browser does not support iframes.
-    </iframe>
+    <div class="iframe-container">
+        <iframe src="https://embed.fixie.ai/agents/5a3113c2-a5f9-4150-8cfc-755e0029f519?debug=1" frameborder="0">
+            Your browser does not support iframes.
+        </iframe>
+    </div>
 </div>
 {% endblock %}
