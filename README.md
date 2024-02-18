@@ -6,4 +6,8 @@
 [![Follow uLynks on Mastodon](https://img.shields.io/mastodon/follow/111813739207573245)](https://mastodon.social/@ulynks "Follow @ulynks@mastodon.social on Mastodon")
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ulynks.fixie)
 
-Growing on Fyn, Denmark 🇩🇰
+[Fixie][fixie] conversational AI agents for Django, Scopus, React by uLynks 🐈
+
+<!-- links -->
+
+[fixie]: https://www.fixie.ai
