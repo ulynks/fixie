@@ -31,6 +31,11 @@ name = 'React'
 pageRef = '/react'
 weight = 4
 
+[[menus.main]]
+name = 'SDU'
+pageRef = '/sdu'
+weight = 5
+
 [module]
   [module.hugoVersion]
     extended = false
