@@ -22,9 +22,9 @@ $body-font: "Poppins", sans-serif !default;
 /* Set the iframe to fill the .iframe-container */
 iframe {
   border: none;
-  height: 90vh;
+  height: 92vh;
   overflow: hidden;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }

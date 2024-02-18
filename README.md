@@ -8,6 +8,20 @@
 
 [Fixie][fixie] conversational AI agents for Django, Scopus, React by uLynks 🐈
 
+## Prerequisite
+
+Install Hugo with [Homebrew](https://formulae.brew.sh/formula/hugo) 👇
+
+```bash
+brew install hugo
+```
+
+## Customization
+
+If you're interested by setting `dark mode` on your Fixie agent visit [fixie-sidekick](https://github.com/fixie-ai/template-vercel-ai-chatbot-ai-jsx) examples.
+
+see: <https://seattle-sidekick.vercel.app>
+
 <!-- links -->
 
 [fixie]: https://www.fixie.ai
