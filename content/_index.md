@@ -1,7 +1,7 @@
 ---
 title: "Fixie Agents by uLynks"
-# date: 2023-01-01T08:00:00-07:00
-# description: "Home"
+date: 2024-02-20T00:00:45+01:00
+description: "Home"
 draft: false
 ---
 
@@ -13,6 +13,6 @@ A Conversation represents a single conversational session between a Fixie Agent 
 
 [Fixie stores the full history of each Conversation](https://embed.fixie.ai/agents/242283b6-e53d-4c7a-93a4-cfa4ea75f0d3/conversations/5aba256a-ab15-4b7f-9f97-6ccb5ab6f2db?debug=1&agentStartsConversation=1&primaryColor=%23fd8c73&darkMode=1&dark=1 "Click to view a saved Conversation by Fixie"), providing the Agent with the full conversational context, so that it can reference the past messages in the Conversation when generating its next reply to the user.
 
-**Be advised not to introduce in your Conversation any personal and/or privileged and/or restricted piece of information.**
+**Be advised not to introduce in your Conversation any personal, privileged and/or restricted piece of information ⚠️**
 
 Learn more on [Fixie.ai](https://www.fixie.ai) official website 🔗
