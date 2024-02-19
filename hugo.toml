@@ -1,12 +1,13 @@
-baseURL = 'https://www.ulynks.io/'
+baseURL = 'https://fixie.ulynks.io/'
 languageCode = 'en-us'
-title = 'uLynks'
+title = 'Fixie Agents by uLynks'
 # theme = 'ananke'
 theme = 'ulynks'
 
 [params]
   subtitle = 'Growing on Fyn, Denmark 🇩🇰'
   umami = '3cf42fbf-5ff7-4ba7-b4d1-607641c5b4e8'
+  mainWebsite = 'https://www.ulynks.io/'
   [params.contact]
     email = 'contact@ulynks.io'
     phone = ''

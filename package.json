@@ -1,5 +1,5 @@
 {
-  "name": "uLynks",
+  "name": "Fixie Agents by uLynks",
   "description": "Growing on Fyn, Denmark 🇩🇰",
   "main": "index.js",
   "private": true,
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ulynks/www.git"
+    "url": "git+https://github.com/ulynks/fixie.git"
   },
   "keywords": [],
   "author": "@JV-conseil",
   "license": "EUPL-1.2",
   "bugs": {
-    "url": "https://github.com/ulynks/www/issues"
+    "url": "https://github.com/ulynks/fixie/issues"
   },
-  "homepage": "https://github.com/ulynks/www#readme",
+  "homepage": "https://github.com/ulynks/fixie#readme",
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
