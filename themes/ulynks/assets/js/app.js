@@ -36,7 +36,7 @@ $(function () {
    */
   $("a[href^='http']").each(function () {
     /* console.debug('_link', this.href); */
-    $(this).attr('target', '_blank')
+    $(this).attr({ 'target': '_blank', 'rel': 'noopener noreferrer' })
   })
 });
 
