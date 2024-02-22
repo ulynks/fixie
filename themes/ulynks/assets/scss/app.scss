@@ -16,15 +16,6 @@ $body-font: "Poppins", sans-serif !default;
 
 // Custom
 
-.w-800 {
-  max-width: 800px;
-}
-
-.Footer {
-  position: fixed;
-  bottom: 0;
-}
-
 /* Set the iframe to fill the .iframe-container */
 iframe {
   border: none;
@@ -33,4 +24,13 @@ iframe {
   width: 100%;
   margin: 0 !important;
   padding: 0 !important;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.w-800 {
+  max-width: 800px;
 }
