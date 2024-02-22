@@ -1,5 +1,7 @@
 // Primer CSS Typography variables
 // see: <https://github.com/pages-themes/primer/blob/master/_sass/primer-support/lib/variables/typography.scss>
+// CSS utilities > Colors
+// see: <https://primer.style/foundations/css-utilities/colors>
 
 // Heading sizes - desktop
 // $h1-size: 32px !default;
@@ -13,6 +15,10 @@ $body-font: "Poppins", sans-serif !default;
 @import "@primer/css/index.scss";
 
 // Custom
+
+.w-800 {
+  max-width: 800px;
+}
 
 .Footer {
   position: fixed;

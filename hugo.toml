@@ -4,6 +4,19 @@ title = 'Fixie Agents by uLynks'
 # theme = 'ananke'
 theme = 'ulynks'
 
+# Configure server
+# https://gohugo.io/getting-started/configuration/#configure-server
+
+[server]
+[[server.headers]]
+    for = '/**'
+    [server.headers.values]
+      Content-Security-Policy = "default-src 'self' https://api.fixie.ai https://cdn.jsdelivr.net https://embed.fixie.ai https://eu.umami.is https://fonts.gstatic.com https://fonts.googleapis.com"
+      Referrer-Policy = 'strict-origin-when-cross-origin'
+      X-Content-Type-Options = 'nosniff'
+      X-Frame-Options = 'DENY'
+      X-XSS-Protection = '1; mode=block'
+
 [params]
   subtitle = 'Growing on Fyn, Denmark 🇩🇰'
   umami = '3cf42fbf-5ff7-4ba7-b4d1-607641c5b4e8'

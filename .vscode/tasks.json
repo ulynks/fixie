@@ -19,7 +19,7 @@
       "detail": "Start Hugo’s development server to view the site. Press Ctrl + C to stop Hugo’s development server."
     },
     {
-      "label": "upgrade",
+      "label": "yarn",
       "command": "yarn upgrade --latest && yarn list && npx depcheck",
       "detail": "Upgrade package.json."
     },
