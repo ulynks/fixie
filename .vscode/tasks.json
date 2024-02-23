@@ -20,7 +20,7 @@
     },
     {
       "label": "yarn",
-      "command": "yarn upgrade --latest && yarn list && npx depcheck",
+      "command": "yarn update",
       "detail": "Upgrade package.json."
     },
     {

@@ -13,7 +13,8 @@
     "build:hugo": "hugo",
     "build:webpack": "webpack --mode=production",
     "dev:webpack": "webpack --mode=development --watch",
-    "sass": "sass --load-path=node_modules/ --no-source-map themes/ulynks/assets/scss/app.scss themes/ulynks/assets/css/app.css --style=compressed"
+    "sass": "sass --load-path=node_modules/ --no-source-map themes/ulynks/assets/scss/app.scss themes/ulynks/assets/css/app.css --style=compressed",
+    "update": "brew upgrade yarn && yarn upgrade --latest && npx yarn-audit-fix && yarn list && npx depcheck --detailed"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,11 @@
     "url": "https://github.com/ulynks/fixie/issues"
   },
   "homepage": "https://github.com/ulynks/fixie#readme",
+  "dependencies": {
+    "@fontsource/poppins": "^5.0.8",
+    "@primer/css": "^21.2.0",
+    "jquery": "^3.7.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
@@ -40,11 +46,7 @@
     "postcss-loader": "^8.1.0",
     "sass": "^1.71.1",
     "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "@fontsource/poppins": "^5.0.8",
-    "@primer/css": "^21.2.0",
-    "jquery": "^3.7.1"
+    "webpack-cli": "^5.1.4",
+    "yarn-audit-fix": "^10.0.7"
   }
 }
