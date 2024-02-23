@@ -1,7 +1,8 @@
+/* global $ */
 // import $ from "jquery";
 
 const SITE = {
-  title: "uLynks",
+  title: "Fixie Agents by uLynks",
 }
 
 $(function () {
