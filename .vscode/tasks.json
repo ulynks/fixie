@@ -20,7 +20,7 @@
     },
     {
       "label": "yarn",
-      "command": "yarn update",
+      "command": "yarn run update",
       "detail": "Upgrade package.json."
     },
     {
