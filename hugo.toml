@@ -14,10 +14,10 @@ theme = 'ulynks'
     [server.headers.values]
       Content-Security-Policy = """
       default-src 'self';
-      connect-src 'self' https://eu.umami.is;
+      connect-src 'self' https://eu.umami.is https://api-gateway-eu.umami.dev;
       font-src https://fonts.gstatic.com;
       frame-src 'self' https://api.fixie.ai https://embed.fixie.ai;
-      script-src 'self' https://cdn.jsdelivr.net https://eu.umami.is;
+      script-src 'self' https://cdn.jsdelivr.net https://eu.umami.is https://widget.reallywrite.com;
       style-src 'self' https://fonts.googleapis.com
       """
       Referrer-Policy = 'strict-origin-when-cross-origin'
@@ -57,6 +57,16 @@ weight = 4
 name = 'SDU'
 pageRef = '/sdu'
 weight = 5
+
+[[menus.main]]
+name = 'EARMA'
+pageRef = '/earma'
+weight = 6
+
+# [[menus.main]]
+# name = 'ReallyWrite'
+# pageRef = '/really-write'
+# weight = 7
 
 [module]
   [module.hugoVersion]
