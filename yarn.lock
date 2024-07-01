@@ -1469,7 +1469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@github/auto-complete-element@npm:^3.6.0":
+"@github/auto-complete-element@npm:^3.6.2":
   version: 3.6.2
   resolution: "@github/auto-complete-element@npm:3.6.2"
   dependencies:
@@ -1728,29 +1728,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@primer/css@npm:^21.2.2":
-  version: 21.2.2
-  resolution: "@primer/css@npm:21.2.2"
+"@primer/css@npm:^21.3.4":
+  version: 21.3.4
+  resolution: "@primer/css@npm:21.3.4"
   dependencies:
-    "@primer/primitives": "npm:^7.15.12"
-    "@primer/view-components": "npm:^0.19.0"
-  checksum: 10c0/1c7fd95984467d521b9dd5b5cf972979ea57cd8a109b79748460a27faa91999ffa7c5465aa971f0b253b7e951c0fa946b71a2400f716cf8218d8821c3aa0822b
+    "@primer/primitives": "npm:^8.2.0"
+    "@primer/view-components": "npm:^0.26.1"
+  checksum: 10c0/2217c52949e751e8d57de90bdd5c4daf354ba133b2dcb74c9ae6f1bd6f202182416a7409958ca6198b9ca888d064feee6f3f7ee1cb3592536e0901e0e6e0a68e
   languageName: node
   linkType: hard
 
-"@primer/primitives@npm:^7.15.12":
-  version: 7.16.0
-  resolution: "@primer/primitives@npm:7.16.0"
-  checksum: 10c0/538ad5a5f3325b25568950e0ded04a28fc03e0c515a1562e64f72147be9bff176a568a4a3bae54fa8e432bcc06500e13705fe5876ece135a5aa8d9d0499003f0
+"@primer/primitives@npm:^8.2.0":
+  version: 8.2.3
+  resolution: "@primer/primitives@npm:8.2.3"
+  checksum: 10c0/3231e267be201745d0922b25ebf7ff58586b9006c38d222d6fdd904162c814a93c7f4f583384a6b6132c3d69a71dec182543ead3ea7639067b79ac7967e3c802
   languageName: node
   linkType: hard
 
-"@primer/view-components@npm:^0.19.0":
-  version: 0.19.0
-  resolution: "@primer/view-components@npm:0.19.0"
+"@primer/view-components@npm:^0.26.1":
+  version: 0.26.1
+  resolution: "@primer/view-components@npm:0.26.1"
   dependencies:
     "@github/auto-check-element": "npm:^5.2.0"
-    "@github/auto-complete-element": "npm:^3.6.0"
+    "@github/auto-complete-element": "npm:^3.6.2"
     "@github/catalyst": "npm:^1.6.0"
     "@github/clipboard-copy-element": "npm:^1.3.0"
     "@github/details-menu-element": "npm:^1.0.12"
@@ -1760,7 +1760,7 @@ __metadata:
     "@github/tab-container-element": "npm:^3.1.2"
     "@oddbird/popover-polyfill": "npm:^0.4.0"
     "@primer/behaviors": "npm:^1.3.4"
-  checksum: 10c0/6d545479325e371af7b95e424d778a831ac21624fc448550478a40a42a267f826749885127a57307420109f55f793f652f11ead3308d04493c3b2e13b185fdc8
+  checksum: 10c0/13b2b7962020e53bf0558da3fa46c3f1e33fc8dbf8d32cf6406ab3696417daf72367381471e71c721b5b8c87eb1092721f018969a9d7ba0dc011b1b554359a6a
   languageName: node
   linkType: hard
 
@@ -3652,7 +3652,7 @@ __metadata:
     "@babel/core": "npm:^7.24.4"
     "@babel/preset-env": "npm:^7.24.4"
     "@fontsource/poppins": "npm:^5.0.14"
-    "@primer/css": "npm:^21.2.2"
+    "@primer/css": "npm:^21.3.4"
     autoprefixer: "npm:^10.4.19"
     babel-loader: "npm:^9.1.3"
     core-js: "npm:^3.37.0"
